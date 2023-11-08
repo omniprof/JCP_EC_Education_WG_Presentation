@@ -1,19 +1,12 @@
 import java.util.Scanner;
 
-/**
- * Stream of Consciousness Version
- */
 public class JavaCalculator01 {
 
     public static void main(String[] args) {
        
-        var sc = new Scanner(System.in);
-        System.out.printf("           Loan: ");
-        var loan = sc.nextDouble();
-        System.out.printf("       Interest: ");
-        var interest = sc.nextDouble();
-        System.out.printf("           Term: ");
-        var term = sc.nextDouble();
+	    double loan = 1000.0;
+		double interest = 0.05;
+		double term = 5;
 
         var tempInterest = interest / 12.0;
         var result = loan * (tempInterest / (1.0 - Math.pow((1.0 + tempInterest), -term)));
