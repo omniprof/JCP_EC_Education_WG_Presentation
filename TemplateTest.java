@@ -3,8 +3,8 @@
 public class TemplateTest {
 
 	public void perform() {
-		String email = "person@mail.com";
-		String page = STR."""
+		var email = "person@mail.com";
+		var page = STR."""
 			<html>
 				<head>
 					<title>Just Servlet Output</title>

@@ -1,10 +1,8 @@
-import java.util.Scanner;
-
 void main() {
        
-    double loan = 1000.0;
-	double interest = 0.05;
-	double term = 5;
+    var loan = 1000.0;
+	var interest = 0.05;
+	var term = 5;
 
     var tempInterest = interest / 12.0;
     var result = loan * (tempInterest / (1.0 - Math.pow((1.0 + tempInterest), -term)));
@@ -13,4 +11,4 @@ void main() {
 }
 
 // Single Source File Code example
-// runs with java JavaCalculator01.java
+// runs with java --enable-preview --source 21 JavaCalculator01.java

@@ -4,9 +4,9 @@ public class JavaCalculator01 {
 
     public static void main(String[] args) {
        
-	    double loan = 1000.0;
-		double interest = 0.05;
-		double term = 5;
+	    var loan = 1000.0;
+		var interest = 0.05;
+		var term = 5;
 
         var tempInterest = interest / 12.0;
         var result = loan * (tempInterest / (1.0 - Math.pow((1.0 + tempInterest), -term)));
