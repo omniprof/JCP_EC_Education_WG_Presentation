@@ -1,4 +1,5 @@
-// Runs with java --enable-preview --source 23 JavaCalculator03.java
+// Runs with java --enable-preview JavaCalculator03.java
+// using Java 23
 
 import static java.io.IO.*;
 

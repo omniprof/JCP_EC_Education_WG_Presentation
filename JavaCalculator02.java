@@ -1,4 +1,5 @@
-// Runs with java --enable-preview --source 23 JavaCalculator02.java
+// Runs with java --enable-preview JavaCalculator02.java 
+// using Java 23
 
 void main() {
     var loan = Double.parseDouble(readln("Loan: "));
