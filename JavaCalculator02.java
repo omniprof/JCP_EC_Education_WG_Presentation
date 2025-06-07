@@ -1,5 +1,5 @@
-// Runs with java --enable-preview JavaCalculator02.java 
-// using Java 23
+// Runs with java JavaCalculator02.java 
+// using Java 25
 
 void main() {
     var loan = Double.parseDouble(readln("Loan: "));
@@ -8,6 +8,6 @@ void main() {
     var tempInterest = interest / 12.0;
     var result = loan * 
 		(tempInterest / (1.0 - Math.pow((1.0 + tempInterest), -term)));
-    println("Monthly Payment: " + String.format("%.2f", result));
+    IO.println("Monthly Payment: " + String.format("%.2f", result));
 }
     
